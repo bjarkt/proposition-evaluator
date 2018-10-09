@@ -36,8 +36,8 @@ class proposition:
                 172: "not",
                 8743: "and",
                 8744: "or",
-                8660: "biimplies",
-                8658: "implies",
+                8660: "<=>",
+                8658: "=>",
                 8593: "nand",
                 8853: "xor"
             }
@@ -167,8 +167,8 @@ class proposition:
         "and": logic._and,
         "or": logic._or,
         "xor": logic._xor,
-        "implies": logic._implies,
-        "biimplies": logic._biimplies,
+        "=>": logic._implies,
+        "<=>": logic._biimplies,
         "nand": logic._nand,
         "|": logic._or,
         "&":  logic._and,
@@ -178,11 +178,12 @@ class proposition:
         "and",
         "or",
         "xor",
-        "implies",
-        "biimplies",
+        "=>",
+        "<=>",
         "nand",
         "|",
-        "&"]
+        "&"
+    ]
 
     @staticmethod
     def split(formula, negate=False):
