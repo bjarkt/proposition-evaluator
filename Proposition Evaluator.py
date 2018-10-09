@@ -7,9 +7,10 @@ import math
 class proposition:
 
     _minimum_row_width = 5 # Width for output of cells in truth table
-    _row_padding = 2 # Default left and right padding in each cell 
-    _separator_char = "#" # Character to use to construct horizontal borders 
-    _column_char = "#" # Character to use between cells
+    _row_padding = 1 # Default left and right padding in each cell 
+    _separator_char = "─" # Character to use to construct horizontal borders
+    _column_char = "│" # Character to use between cells
+    _corner_chars = ["┌", "┐", "┘", "└"]
 
     def __init__(self, text, extended=False):
         text = proposition.process_special_chars(text.lower())
