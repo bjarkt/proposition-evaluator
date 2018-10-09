@@ -8,4 +8,4 @@ Run with `python Proposition\ Evaluator.py`.
 Input proposition using either words or symbols copied from Online Learning Initiative lesson. Default propositional variables should be p, q, or r, but any single lower case English letter works. Logical connectives: not, and, or, xor, nand, (=>)implies, (<=>)biimplies.
 
 ### Example:
-![Screenshot](https://i.imgur.com/cYJ15tm.png)
+![Screenshot](https://i.imgur.com/BccUTfT.png)
